@@ -1,20 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<!DOCTYPE HTML>
 <html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Frames Practice</title>
 </head>
-<frameset rows="15%, 75%, 10%" noresize scrolling="no">
-    <frame src="header.html">
 
-        <frameset cols="30%, 70%">
-            <frame src="menu.html">
-                <frame src="content.html">
-        </frameset>
+<body>
 
-        <frame src="footer.html">
-</frameset>
+    <iframe frameborder="0" id="Lhead" src="header.html"></iframe>
+    <iframe frameborder="0" id="Lmenu" src="menu.html"></iframe>
+    <iframe frameborder="0" id="Lcontent" src="content.html"></iframe>
+    <iframe frameborder="0" id="Lfoot" src="footer.html"></iframe>
+
+</body>
 
 </html>

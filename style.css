@@ -1,0 +1,32 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+#Lhead {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(209, 99, 99);
+}
+
+#Lmenu {
+  margin-top: 0;
+  height: 70%;
+  width: 25%;
+  background-color: rgb(230, 166, 82);
+  float: left;
+}
+#Lcontent {
+  height: 70%;
+  width: 75%;
+  background-color: rgb(214 136 34);
+}
+#Lfoot {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(209, 99, 99);
+}
+.cl {
+  font-size: 25px;
+}
